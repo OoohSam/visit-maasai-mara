@@ -1,0 +1,5 @@
+{
+  "name": "Visit Maasai Mara",
+  "description": "A professional travel guide and hotel booking platform for the Maasai Mara National Reserve, featuring luxury lodges and safari experiences.",
+  "requestFramePermissions": ["geolocation"]
+}

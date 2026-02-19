@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-savannah-50: #fdf8f4;
+  --color-savannah-100: #f9ede2;
+  --color-savannah-200: #f1d7c1;
+  --color-savannah-300: #e5b895;
+  --color-savannah-400: #d59166;
+  --color-savannah-500: #c97445;
+  --color-savannah-600: #ba5d39;
+  --color-savannah-700: #9b4a31;
+  --color-savannah-800: #7d3e2d;
+  --color-savannah-900: #663528;
+  --color-savannah-950: #371a14;
+
+  --color-sunset-50: #fff8f1;
+  --color-sunset-100: #ffeedc;
+  --color-sunset-200: #ffd9b8;
+  --color-sunset-300: #ffbc88;
+  --color-sunset-400: #ff9252;
+  --color-sunset-500: #ff7126;
+  --color-sunset-600: #f05210;
+  --color-sunset-700: #c73d0f;
+  --color-sunset-800: #9e3214;
+  --color-sunset-900: #802c14;
+  --color-sunset-950: #461308;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  @apply bg-savannah-50 text-savannah-950;
+}
+
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
